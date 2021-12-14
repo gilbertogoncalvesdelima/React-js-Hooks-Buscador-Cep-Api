@@ -6,6 +6,8 @@ import { FiSearch } from 'react-icons/fi'
 
 function App() {
 
+ 
+
   //input, para saber o valor do estado
   //setInput, passar um valor novo para este estado
 
@@ -38,8 +40,8 @@ function App() {
 
     <div className="container">
       <h1 className="title">Buscador CEP</h1>
-      
-
+     
+ 
       <div className="containerInput">
         <input type="text" 
         placeholder="Digite seu cep..."
