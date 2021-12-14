@@ -89,3 +89,19 @@
         min-height: 250px;
         }
       }
+      .footer{
+      color: white;
+      text-align: center;
+      font-style: italic;
+      animation: flipRodape 2s;
+      }
+     
+        /*Esta animação é bem legal, vai fazer girar o titulo*/
+        @keyframes flipRodape {
+        from{
+        transform: rotateX(90deg)
+        }
+        to{
+        transform: rotateX(0deg)
+        }
+        }
