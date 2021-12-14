@@ -1,6 +1,7 @@
 import { useState } from "react";
 import api from './services/api'
 import './styles.css'
+
 import { FiSearch } from 'react-icons/fi'
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
   }catch{ // casso der errado, o catch assume, caso o cep estiver errado
   alert("Ops erro ao buscar")
   setInput("") // limpando input
+  
   }
   }
 
@@ -36,6 +38,7 @@ function App() {
 
     <div className="container">
       <h1 className="title">Buscador CEP</h1>
+      
 
       <div className="containerInput">
         <input type="text" 
@@ -65,16 +68,20 @@ function App() {
          "ddd": "11",
          "siafi": "7107"
        }*/}
+        
         <h2>CEP: {cep.cep}</h2>
    
         <span>{cep.logradouro}</span>
         <span>Complemento: {cep.complemento}</span>
         <span>{cep.bairro}</span>
         <span>{cep.localidade} - {cep.uf}</span>
-       
+        
         </main>
       )}
-    
+    <br/>
+    <footer className="footer">
+    <p>&copy; Gilberto Gonçalves de Lima</p>
+    </footer>
 
     </div>
   );
