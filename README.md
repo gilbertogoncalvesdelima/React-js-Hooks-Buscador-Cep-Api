@@ -49,6 +49,6 @@ npm install axios
 ## Link para visualizar o código
 
 ```js
-https://react-js-hooks-buscador-cep-api-gilberto-goncalves-de-lima.netlify.app/
+https://buscador-cep-gilberto-goncalves-de-lima.netlify.app/
 ```
 
